@@ -1,0 +1,167 @@
+[
+	{
+		"provinceId" : 1,
+		"provinceName" : "江苏",
+		"provinceAbbr" : "苏"
+	},
+	{
+		"provinceId" : 2,
+		"provinceName" : "北京",
+		"provinceAbbr" : "京"
+	},
+	{
+		"provinceId" : 3,
+		"provinceName" : "天津",
+		"provinceAbbr" : "津"
+	},
+	{
+		"provinceId" : 4,
+		"provinceName" : "上海",
+		"provinceAbbr" : "沪"
+	},
+	{
+		"provinceId" : 5,
+		"provinceName" : "重庆",
+		"provinceAbbr" : "渝"
+	},
+	{
+		"provinceId" : 6,
+		"provinceName" : "湖北",
+		"provinceAbbr" : "鄂"
+	},
+	{
+		"provinceId" : 7,
+		"provinceName" : "广东",
+		"provinceAbbr" : "粤"
+	},
+	{
+		"provinceId" : 8,
+		"provinceName" : "四川",
+		"provinceAbbr" : "川"
+	},
+	{
+		"provinceId" : 9,
+		"provinceName" : "浙江",
+		"provinceAbbr" : "浙"
+	},
+	{
+		"provinceId" : 10,
+		"provinceName" : "山东",
+		"provinceAbbr" : "鲁"
+	},
+	{
+		"provinceId" : 11,
+		"provinceName" : "河北",
+		"provinceAbbr" : "冀"
+	},
+	{
+		"provinceId" : 12,
+		"provinceName" : "山西",
+		"provinceAbbr" : "晋"
+	},
+	{
+		"provinceId" : 13,
+		"provinceName" : "内蒙古",
+		"provinceAbbr" : "蒙"
+	},
+	{
+		"provinceId" : 14,
+		"provinceName" : "辽宁",
+		"provinceAbbr" : "辽"
+	},
+	{
+		"provinceId" : 15,
+		"provinceName" : "吉林",
+		"provinceAbbr" : "吉"
+	},
+	{
+		"provinceId" : 16,
+		"provinceName" : "黑龙江",
+		"provinceAbbr" : "黑"
+	},
+	{
+		"provinceId" : 17,
+		"provinceName" : "安徽",
+		"provinceAbbr" : "徽"
+	},
+	{
+		"provinceId" : 18,
+		"provinceName" : "福建",
+		"provinceAbbr" : "闽"
+	},
+	{
+		"provinceId" : 19,
+		"provinceName" : "江西",
+		"provinceAbbr" : "赣"
+	},
+	{
+		"provinceId" : 20,
+		"provinceName" : "河南",
+		"provinceAbbr" : "豫"
+	},
+	{
+		"provinceId" : 21,
+		"provinceName" : "湖南",
+		"provinceAbbr" : "湘"
+	},
+	{
+		"provinceId" : 22,
+		"provinceName" : "广西",
+		"provinceAbbr" : "桂"
+	},
+	{
+		"provinceId" : 23,
+		"provinceName" : "海南",
+		"provinceAbbr" : "琼"
+	},
+	{
+		"provinceId" : 24,
+		"provinceName" : "贵州",
+		"provinceAbbr" : "贵"
+	},
+	{
+		"provinceId" : 25,
+		"provinceName" : "云南",
+		"provinceAbbr" : "云"
+	},
+	{
+		"provinceId" : 26,
+		"provinceName" : "西藏",
+		"provinceAbbr" : "藏"
+	},
+	{
+		"provinceId" : 27,
+		"provinceName" : "陕西",
+		"provinceAbbr" : "陕"
+	},
+	{
+		"provinceId" : 28,
+		"provinceName" : "甘肃",
+		"provinceAbbr" : "甘"
+	},
+	{
+		"provinceId" : 29,
+		"provinceName" : "青海",
+		"provinceAbbr" : "青"
+	},
+	{
+		"provinceId" : 30,
+		"provinceName" : "宁夏",
+		"provinceAbbr" : "宁"
+	},
+	{
+		"provinceId" : 31,
+		"provinceName" : "新疆",
+		"provinceAbbr" : "新"
+	},
+  {
+    "provinceId" : 32,
+    "provinceName" : "台湾",
+    "provinceAbbr" : "新"
+  },
+  {
+    "provinceId" : 32,
+    "provinceName" : "南海诸岛",
+    "provinceAbbr" : "新"
+  }
+]

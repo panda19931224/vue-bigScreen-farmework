@@ -1,0 +1,166 @@
+#shenzhenTourismGuest{
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity 1s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+  width:100%;
+  height:100%;
+  background: url(../../assets/images/szFlowDistribution/sz-bg.jpg) no-repeat;
+  background-size: 100% 100%;
+  .title{
+    height: 6vh;
+    line-height: 6vh;
+    position:relative;
+    h3{
+      color:#fff;
+      font-size: 1rem;
+      text-align: center;
+    }
+    .select{
+      width:8rem;
+      position:absolute;
+      top:0.3rem;
+      left:1rem;
+      .el-input__inner{
+        background: transparent;
+        border-color: #4EA3F8;
+        color:#fff;
+        font-weight: bold;
+      }
+    }
+    .time{
+      position:absolute;
+      top:0.3rem;
+      right:1rem;
+      span{
+        color:#fff;
+      }
+    }
+  }
+  .main{
+    height: 90vh;
+    width:97%;
+    margin: 2vh auto;
+    .main-top{
+      height:55vh;
+      .main-top-left{
+        width:55%;
+        height:100%;
+        float:left;
+        .heat-map-box{
+          width:100%;
+          height:100%;
+          background: url(../../assets/images/szFlowDistribution/sz-icon2.png) no-repeat;
+          background-size: 100% 100%;
+          padding:0.5rem;
+          .heat-map{
+            width:100%;
+            height:100%;
+          }
+        }
+      }
+      .main-top-right{
+        width:44%;
+        height:100%;
+        margin-left: 1%;
+        float:left;
+        .main-top-right-half{
+          background: url(../../assets/images/szFlowDistribution/sz-icon.png) no-repeat;
+          background-size: 100% 100%;
+        }
+        .main-top-right-top {
+          width: 100%;
+          height: 27vh;
+          .main-top-right-top-left{
+            width:40%;
+            height:100%;
+            float:left;
+            .passenger-flow{
+              height: 48%;
+              text-align: center;
+              .count-bg{
+                width: auto;
+                height:auto;
+                //border: 1px solid #fff;
+                h3{
+                  width: auto;
+                  height: auto;
+                  font-size: 1.5rem;
+                  line-height: 3rem;
+                  background: linear-gradient(to bottom, #79BDFF, #0180F3);
+                  -webkit-background-clip: text;
+                  color: #79BDFF;
+                  span{
+                    display:inline-block;
+                    background: url(../../assets/images/szFlowDistribution/count-bg.png) no-repeat;
+                    background-size: 100% 70%;
+                    padding: 0 0.5rem;
+                    background-position:center center;
+                  }
+                }
+              }
+              p{
+                color:#fff;
+                font-size: 0.8rem;
+                line-height: 1rem;
+              }
+            }
+            .sz-line{
+              height:4%;
+              width: 80%;
+              margin: 0 auto;
+              background: url(../../assets/images/szFlowDistribution/sz-line.png) no-repeat;
+              background-size: 100% 100%;
+              background-position:center center;
+            }
+          }
+          .main-top-right-top-right{
+            width:60%;
+            height:100%;
+            float:left;
+          }
+        }
+        .main-top-right-bottom {
+          width: 100%;
+          height: 27vh;
+          margin-top: 1vh;
+        }
+      }
+    }
+    .main-bottom{
+      height:33vh;
+      margin-top:2vh;
+      .main-bottom-left{
+        width: 55%;
+        height: 100%;
+        float:left;
+        .main-bottom-left-half{
+          width: 49%;
+          height: 100%;
+          margin-right: 1%;
+          float:left;
+          background: url(../../assets/images/szFlowDistribution/sz-icon2.png) no-repeat;
+          background-size: 100% 100%;
+        }
+        .main-bottom-left-half2{
+          width: 49%;
+          height: 100%;
+          margin-left: 1%;
+          float:left;
+          background: url(../../assets/images/szFlowDistribution/sz-icon2.png) no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      .main-bottom-right{
+        width: 44%;
+        height: 100%;
+        margin-left: 1%;
+        float:left;
+        background: url(../../assets/images/szFlowDistribution/sz-icon2.png) no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+  }
+}

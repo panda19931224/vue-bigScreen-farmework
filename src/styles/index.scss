@@ -1,0 +1,128 @@
+@import './mixin.scss';
+@import './transition.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+html, body, #app, .wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: '黑体';
+  // font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  color: #333333;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+div {
+  //width: 100%;
+  //height: 100%;
+  box-sizing: border-box;
+}
+
+div:focus {
+  outline: none;
+}
+div:before{
+  display:table;
+  content: '';
+}
+div:after{
+  display:table;
+  content: '';
+  clear: both;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+//main-container全局样式
+.app-main {
+  transition: margin-left 0.28s;
+  top: 80px;
+  background: none repeat scroll 0 0 #fff;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  width: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 12px;
+  border-radius: 2px;
+}
+
+.hideSidebar {
+  .app-main {
+    left: 36px;
+    transition: left 0.28s;
+  }
+}
+
+.no-tags {
+  .app-main {
+    top: 50px;
+  }
+}
+
+.app-container {
+  padding: 20px;
+}
+.el-select-dropdown{
+  background: #263F7D;
+  border-color: #4EA3F8;
+}
+.el-select-group__title{
+  color:#fff;
+  font-size: 0.6rem;
+}
+.el-select-dropdown__item span{
+  color:#fff;
+}
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover{
+  background: #4EA3F8;
+}
+.el-popper[x-placement^=bottom] .popper__arrow::after{
+  border-bottom-color: #4EA3F8;
+}
+.el-cascader__label{
+  color:#fff;
+}
