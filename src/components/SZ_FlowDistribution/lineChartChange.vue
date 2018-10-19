@@ -197,12 +197,12 @@ export default {
               shadowBlur: 10
             }
           },
-          color:['#89C4F4'],
+          color: ['#89C4F4'],
           markPoint: {
             symbol: 'roundRect',
             symbolSize: [90, 20],
             symbolOffset: [0, '100%'],
-            label:{
+            label: {
               normal: {
                 color: '#fff',
                 fontSize: 12,
@@ -239,7 +239,7 @@ export default {
             symbol: 'roundRect',
             symbolSize: [90, 20],
             symbolOffset: [0, '100%'],
-            label:{
+            label: {
               normal: {
                 color: '#fff',
                 fontSize: 12,

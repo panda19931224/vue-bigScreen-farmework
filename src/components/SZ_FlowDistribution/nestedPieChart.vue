@@ -102,7 +102,7 @@ export default {
                     // width: 55,
                     color: '#eee',
                     fontSize: 8,
-                    lineHeight: 33,
+                    lineHeight: 33
                     // padding: [0, 1]
                     // margin: [0, 0]
                   },
