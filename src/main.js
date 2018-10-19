@@ -10,6 +10,9 @@ import './styles/index.scss' // global css
 import UtilsPlugin from './assets/utils'
 import HttpPlugin from './http/Index'
 import VCharts from 'v-charts'
+import Vant from 'vant'
+import 'vant/lib/vant-css/index.css'
+Vue.use(Vant)
 Vue.config.productionTip = false
 // plugins
 Vue.use(UtilsPlugin)
